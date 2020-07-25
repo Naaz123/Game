@@ -1,0 +1,36 @@
+.game-container {
+    display: grid; 
+  }
+
+  #level-1{
+    grid-template-columns: auto auto auto; 
+    width: 20%;
+  }
+
+  #level-2{
+    grid-template-columns: auto auto auto auto; 
+    width: 30%;
+  }
+
+  #level-3{
+    grid-template-columns: auto auto auto auto auto; 
+    width: 40%;
+  }
+
+  #level-4{
+    grid-template-columns: auto auto auto auto auto auto; 
+    width: 50%;
+  }
+
+  .game-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /* width: 10%; */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #intro{
+      
+  }
